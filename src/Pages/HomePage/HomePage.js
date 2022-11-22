@@ -43,16 +43,16 @@ function HomePage() {
                         <h2>Countries</h2>
                     </div>
                     <div className="homePageTab">
-                        <a href="#" onClick={() => {
+                        <a href="" onClick={() => {
                             getCountriesListApi()  // default will be all countries
                             // setFilteredCountries(countries) 
                         }} >All</a>
-                        <a href="#" onClick={() => {
+                        <a href="" onClick={() => {
                             // getCountriesListApi("region/asia")
                             setFilteredCountries(filtrCountriesByRegion("Asia"))
 
                         }}>Asia</a>
-                        <a href="#" onClick={() => {
+                        <a href="" onClick={() => {
                             getCountriesListApi("region/europe")
                         }}>Europe</a>
                     </div>
@@ -67,16 +67,16 @@ function HomePage() {
                                     <i class="fa-solid fa-square-xmark"></i>
                                 </div>
                                 <div className="hideMenu">
-                                    <a href="#" onClick={() => {
+                                    <a href="" onClick={() => {
                                         getCountriesListApi()  // default will be all countries
                                         // setFilteredCountries(countries) 
                                     }} >All</a>
-                                    <a href="#" onClick={() => {
+                                    <a href="" onClick={() => {
                                         // getCountriesListApi("region/asia")
                                         setFilteredCountries(filtrCountriesByRegion("Asia"))
 
                                     }}>Asia</a>
-                                    <a href="#" onClick={() => {
+                                    <a href="" onClick={() => {
                                         getCountriesListApi("region/europe")
                                     }}>Europe</a>
                                 </div>
