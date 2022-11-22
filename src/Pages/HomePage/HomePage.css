@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.homePageHeader{
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.homePageTab{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.countryData{
+    padding: 20px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    width: 100px;
+}
+.box2{
+    width: 200px;
+}
+.countryDetails{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}

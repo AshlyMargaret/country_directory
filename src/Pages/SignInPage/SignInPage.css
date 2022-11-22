@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signInPage{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+.loginContainer{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    margin-left: 160px;
+}
+.formField{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.keepMeField{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.socialMediaIcons{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.input{
+    width: 250px;
+    padding: 13px;
+    border: 2px solid black;
+}
+.btnSec button{
+    width: 250px;
+    padding: 13px;
+    background-color: #3C3C3C;
+    border: none;
+    color: white;
+}
+.otherSignText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #3C3C3C;
+}
+input.larger {
+    width: 50px;
+    height: 25px;
+    color: black;
+    background-color: white;
+  }
