@@ -1,9 +1,6 @@
 import React from 'react'
 import './SignInPage.css'
 import IllustrationImage from '../../assests/Illustration.png'
-import Google from '../../assests/Area [SIZE_MEDI (1).png'
-import Facebook from '../../assests/Area [SIZE_MEDI.png'
-import Indeed from '../../assests/Area [ICON_feat.png'
 import Twitter from '../../assests/Path.png'
 import { Link } from 'react-router-dom';
 
