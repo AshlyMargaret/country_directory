@@ -1,9 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import './HomePage.css'
-import Dummy from "../../assests/Path.png";
 import axios from 'axios'
-import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import Footer from '../../Components/Footer/Footer';
 
 function HomePage() {
     
@@ -90,7 +89,7 @@ function HomePage() {
         </div>   
         </div>
         <div className="footerSection">
-        <Footer/>
+       <Footer/>
         </div>
         <div className="backBtn">
         <Link to="/"> <button>Back</button></Link>    
