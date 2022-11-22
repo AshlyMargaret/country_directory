@@ -17,17 +17,17 @@ function SignInPage() {
              <h2>Sign In</h2>
            </div>
            <div className="newUser">
-            <h4>New User ? <a href="">Create an account</a></h4>
+            <h4>New User ? <a href="#">Create an account</a></h4>
            </div>
            <div className="formField">
             <div className="userNameField">
-            <input type="text" className='input' placeholder='username or email' value='ashly'/>
+            <input type="text" className='input' placeholder='username or email' />
             </div>
             <div className="passwordField">
-            <input type="password" className='input' placeholder='password' value='2345'/>
+            <input type="password" className='input' placeholder='password' />
             </div>
             <div className="keepMeField">
-            <input type="checkbox" class="larger" checked style={{background:"white"}} />
+            <input type="checkbox" class="larger"  style={{background:"white"}} />
             <p>Keep me signed in</p>
             </div>
             <div className="btnSec">
