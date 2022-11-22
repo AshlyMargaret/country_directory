@@ -40,9 +40,9 @@ function SignInPage() {
               <div className="line"></div>
            </div>
            <div className="socialMediaIcons">
-             <img src={Twitter} alt="" />
-             <img src={Twitter} alt="" />
-             <img src={Twitter} alt="" />
+           <i class="fa-brands fa-google"></i>
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-linkedin"></i>
              <img src={Twitter} alt="" />
            </div>
            </div>

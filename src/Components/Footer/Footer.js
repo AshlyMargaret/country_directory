@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className='footer'>
        <div className="socialIcons">
-             <img src={Twitter} alt="" />
-             <img src={Twitter} alt="" />
-             <img src={Twitter} alt="" />
+           <i class="fa-brands fa-google"></i>
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-linkedin"></i>
              <img src={Twitter} alt="" />
        </div>
        <p>Example@email.com</p>

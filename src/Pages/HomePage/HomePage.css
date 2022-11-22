@@ -110,6 +110,7 @@ a.active {
    border: none;
    background-color: black;
    color: white;
+   cursor: pointer;
 }
 
 /* Media Query */
