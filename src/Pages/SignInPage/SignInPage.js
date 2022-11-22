@@ -5,6 +5,8 @@ import Google from '../../assests/Area [SIZE_MEDI (1).png'
 import Facebook from '../../assests/Area [SIZE_MEDI.png'
 import Indeed from '../../assests/Area [ICON_feat.png'
 import Twitter from '../../assests/Path.png'
+import { Link } from 'react-router-dom';
+
 
 function SignInPage() {
   return (
@@ -19,17 +21,17 @@ function SignInPage() {
            </div>
            <div className="formField">
             <div className="userNameField">
-            <input type="text" className='input' placeholder='username or email'/>
+            <input type="text" className='input' placeholder='username or email' value='ashly'/>
             </div>
             <div className="passwordField">
-            <input type="password" className='input' placeholder='password' />
+            <input type="password" className='input' placeholder='password' value='2345'/>
             </div>
             <div className="keepMeField">
             <input type="checkbox" class="larger" checked style={{background:"white"}} />
             <p>Keep me signed in</p>
             </div>
             <div className="btnSec">
-            <button>Sign In</button>
+            <Link to="/home"><button>Sign In</button></Link>
             </div>  
            </div>
            <div className="otherSignText">

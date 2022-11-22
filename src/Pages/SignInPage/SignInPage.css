@@ -46,6 +46,7 @@
     background-color: #3C3C3C;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .otherSignText{
     display: flex;
@@ -63,4 +64,22 @@ input.larger {
     height: 25px;
     color: black;
     background-color: white;
+  }
+
+  /* Media Query */
+
+  @media screen and (max-width: 767px) {
+    .signInPage{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .illustrationSec{
+       display: none;
+    }
+    .loginContainer{
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
   }
