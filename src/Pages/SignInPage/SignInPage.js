@@ -3,21 +3,21 @@ import './SignInPage.css'
 import IllustrationImage from '../../assests/Illustration.png'
 import Twitter from '../../assests/Path.png'
 import  { useState } from 'react'
-import {Link, Routes, Route, useNavigate} from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 
 function SignInPage() {
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const navigate = useNavigate();
 
   const onSubmit = (e)=>{
     e.preventDefault();
     if(username.trim()==="" || password.trim() ==""){
-      alert("required both field");
+      setErrorMessage("Required both field")
     }
     else{
-      alert("login sucessfull")
       navigate('/home');    
       
     }
@@ -30,7 +30,7 @@ function SignInPage() {
              <h2>Sign In</h2>
            </div>
            <div className="newUser">
-            <h4>New User ? <a href="#">Create an account</a></h4>
+            <h4>New User ? <a href="#" className='createAccount'>Create an account</a></h4>
            </div>
            <div className="formField">
             <div className="userNameField">
@@ -39,18 +39,19 @@ function SignInPage() {
               console.log("username",username);
             }} />
             </div>
+            
             <div className="passwordField">
             <input type="password" className='input' placeholder='password' value={password} onChange={(e)=>{
               setPassword(e.target.value)
               console.log("password",password);
             }} />
             </div>
+            {errorMessage && <div className="error"> {errorMessage} </div>}
             <div className="keepMeField">
             <input type="checkbox" class="larger"  style={{background:"white"}} />
             <p>Keep me signed in</p>
             </div>
             <div className="btnSec">
-            {/* <Link to="/home"><button>Sign In</button></Link> */}
              <button type='submit'  onClick={onSubmit}>Sign In</button>
             </div>  
            </div>
