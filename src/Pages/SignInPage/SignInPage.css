@@ -65,7 +65,13 @@ input.larger {
     color: black;
     background-color: white;
   }
-
+.error{
+    color: red;
+    font-size: 11px;
+}
+.createAccount{
+    color: #7F9DFF;
+}
   /* Media Query */
 
   @media screen and (max-width: 767px) {
