@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Table of Contents
+  - About The Project
+  - Prerequisites
+  - Installation
+  - Roadmap
+  - Contact
+  - Acknowledgments
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About The Project
 
-## Available Scripts
+ ![sign in page / country directory](/src/assests/Sign%20In%20-%20Deskt.png)
+ ![Home page / country directory](/src/assests/Home%20-Desktop.png)
 
-In the project directory, you can run:
+ Country Directory
 
-### `npm start`
+An application used to List the countries in Home page, along with flag and region, built with React, JavaScript, and CSS (Grid & Flex Layout).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Installation and Setup Instructions
 
-### `npm test`
+Example:
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To Run Test Suite:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm test
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Start Server:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To Visit App:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+localhost:3000/...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Roadmap
+ - This was a 6 hours project.I
+ - I started this project from the scratch.Used Flex and Grid Layout for desiging.
+ - Retrieve the data from following Api:- 
+     url: https://restcountries.com/v2/all?fields=name,region,flag  
+    - Method = axios 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ### Installing
 
-## Learn More
+    ``npm i axios
+    ``   
+    #### Axios Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Make XMLHttpRequests from the browser
+    - Make http requests from node.js
+    - Supports the Promise API
+    - Intercept request and response
+    - Transform request and response data
+    - Cancel requests
+    - Automatic transforms for JSON data
+    - 🆕 Automatic data object serialization to multipart/form-data and x-www-form-urlencoded body encodings
+    - Client side support for protecting against XSRF
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contact
+Your Name - Ashly Margaret - ashlymargaret030@gmail.com
 
-### Code Splitting
+Repositry Link: https://github.com/ashly1993/country_directory
+Live          : https://country-directory.vercel.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Acknowledgments
+- Font Awesome
+- Vercel App
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
