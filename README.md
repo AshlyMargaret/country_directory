@@ -8,10 +8,12 @@
 
 # About The Project
 
- ![sign in page / country directory](/src/assests/Sign%20In%20-%20Deskt.png)
- ![Home page / country directory](/src/assests/Home%20-Desktop.png)
+ ![sign in page / country directory](/src/assests/ss/Desktop-Sign-in-page.png)
+ ![Mobile View /sign in page / country directory](/src/assests/ss/Mobile-Sign-in-page.png)
+ ![Home page / country directory](/src/assests/ss/Desktop-Home-page.png)
+ ![Mobile ViewHome page / country directory](/src/assests/ss/Mobile-Home-Page.png)
 
- Country Directory
+ Country Directory 
 
 An application used to List the countries in Home page, along with flag and region, built with React, JavaScript, and CSS (Grid & Flex Layout).
 
