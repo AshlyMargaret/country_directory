@@ -43,18 +43,22 @@ function HomePage() {
                         <h2>Countries</h2>
                     </div>
                     <div className="homePageTab">
-                        <a href="#" onClick={() => {
+                       
+
+                        <button onClick={() => {
                             getCountriesListApi()  // default will be all countries
                             // setFilteredCountries(countries) 
-                        }} >All</a>
-                        <a href="#" onClick={() => {
+                        }}>All</button>
+
+                        <button onClick={() => {
                             // getCountriesListApi("region/asia")
                             setFilteredCountries(filtrCountriesByRegion("Asia"))
 
-                        }}>Asia</a>
-                        <a href="#" onClick={() => {
+                        }}>Asia</button>
+
+                        <button onClick={() => {
                             getCountriesListApi("region/europe")
-                        }}>Europe</a>
+                        }}>Europe</button>
                     </div>
 
 
@@ -67,18 +71,22 @@ function HomePage() {
                                     <i class="fa-solid fa-square-xmark"></i>
                                 </div>
                                 <div className="hideMenu">
-                                    <a href="" onClick={() => {
+                                    
+
+                                    <button onClick={() => {
                                         getCountriesListApi()  // default will be all countries
                                         // setFilteredCountries(countries) 
-                                    }} >All</a>
-                                    <a href="" onClick={() => {
+                                    }}>All</button>
+
+                                    <button onClick={() => {
                                         // getCountriesListApi("region/asia")
                                         setFilteredCountries(filtrCountriesByRegion("Asia"))
 
-                                    }}>Asia</a>
-                                    <a href="" onClick={() => {
+                                    }}>Asia</button>
+
+                                    <button onClick={() => {
                                         getCountriesListApi("region/europe")
-                                    }}>Europe</a>
+                                    }}>Europe</button>
                                 </div>
                             </div> : null
                     }

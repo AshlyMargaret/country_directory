@@ -112,6 +112,12 @@ a.active {
    color: white;
    cursor: pointer;
 }
+.homePageTab button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+}
 
 /* Media Query */
 @media screen and (max-width: 767px) {
@@ -126,6 +132,12 @@ a.active {
     }
     i{
         font-size: 20px;
+    }
+    .hideMenu button{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        width: 60px;
     }
   }
 
