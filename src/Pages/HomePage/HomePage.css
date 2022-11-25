@@ -120,6 +120,29 @@ a.active {
 }
 
 /* Media Query */
+@media screen and (max-width: 1024px) {
+    .countryData{
+     width: 290px; 
+    }    
+    
+ }
+
+
+@media screen and (max-width: 992px) {
+    .countryData{
+     width: 280px; 
+    }    
+    
+ }
+
+
+@media screen and (max-width: 991px) {
+    .countryData{
+     width: 280px; 
+    }    
+    
+ }
+
 @media screen and (max-width: 767px) {
     /* .container{
         width: 100%;
@@ -139,5 +162,86 @@ a.active {
         cursor: pointer;
         width: 60px;
     }
+    .container{
+        width: 100%;
+    }
+   
+    .countryData{
+     width: 500px;
+    
+    }
+    .homePageHeader {
+        padding-left: 20px;
+        padding-right: 20px;  
+      }
+      .countryDetails{
+        width: 100%;
+        justify-content: center;
+      }
   }
 
+  @media screen and (max-width: 576px) {
+    
+    .container{
+        width: 100%;
+    }
+   
+    .countryData{
+     width: 450px;
+    
+    }
+    .homePageHeader {
+        padding-left: 20px;
+        padding-right: 20px;  
+      }
+    
+ }
+
+  @media screen and (max-width: 414px) {
+    
+    .container{
+        width: 100%;
+    }
+   
+    .countryData{
+     width: 320px;
+    
+    }
+    .homePageHeader {
+        padding-left: 20px;
+        padding-right: 20px;  
+      }
+    
+ }
+
+  @media screen and (max-width: 375px) {
+    
+    .container{
+        width: 100%;
+    }
+   
+    .countryData{
+     width: 280px;
+    
+    }
+    .homePageHeader {
+        padding-left: 20px;
+        padding-right: 20px;  
+      }
+    
+ }
+
+  @media screen and (max-width: 320px) {
+    
+   .container{
+    width: 100%;
+   }
+   .countryData{
+    width: 240px;
+    padding: 5px;
+   }
+   .homePageHeader {
+    padding-left: 20px;
+    padding-right: 20px;  
+  }
+}
